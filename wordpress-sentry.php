@@ -1,10 +1,10 @@
 <?php
 
 /*
-  Plugin Name: WordPress Sentry
+  Plugin Name: Sentry
   Plugin URI: https://github.com/TheLeagueAU/wordpress-sentry
   Description: Sends PHP errors to Sentry
-  Version: 1.3.0
+  Version: 1.3.1
   Author: Ryan Bagwell, Oscar Barrett
   Author URI: https://github.com/TheLeagueAU
   License: GPLv2 or later

@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.3.1] - 2017-03-17
+### Changed
+- Renamed plugin to Sentry to prevent incorrect update messages when using github-updater.
+
 ## [1.3.0] - 2017-03-17
 ### Added
 - CHANGELOG.md, with content migrated from readme.txt.
@@ -41,7 +45,8 @@
 - Added first release.
 
 
-[Unreleased]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.3.1...HEAD
+[1.3.1]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.2...v1.3.0
 [1.2]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.1...v1.2
 [1.1]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.0...v1.1
