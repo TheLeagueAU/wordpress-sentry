@@ -1,12 +1,15 @@
 <?php
 
 /*
-  Plugin Name: WordPress Sentry Client
-  Plugin URI: http://www.hzdg.com
-  Description: Sends PHP errors to Django Sentry
-  Author: Ryan Bagwell
-  Version: 1
-  Author URI: http://www.ryanbagwell.com
+  Plugin Name: WordPress Sentry
+  Plugin URI: https://github.com/TheLeagueAU/wordpress-sentry
+  Description: Sends PHP errors to Sentry
+  Version: 1.3.0
+  Author: Ryan Bagwell, Oscar Barrett
+  Author URI: https://github.com/TheLeagueAU
+  License: GPLv2 or later
+  License URI: http://www.gnu.org/copyleft/gpl.html
+  GitHub Plugin URI: TheLeagueAU/wordpress-sentry
  */
 
 require_once( dirname(__FILE__) . '/class.wp-raven-client.php' );
