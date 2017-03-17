@@ -10,6 +10,7 @@
 ### Changed
 - Updated Sentry SDK to 1.6.2
 - Updated plugin headers: Renamed plugin to WordPress Sentry, updated URIs and Author, added License information, added plugin URI for github-updater plugin.
+- Updated README.md
 
 ### Removed
 - Removed make_release.sh as it is obsolete.
@@ -40,7 +41,7 @@
 - Added first release.
 
 
-[Unreleased]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.3.0...HEAD
 [1.3.0]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.2...v1.3.0
 [1.2]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.1...v1.2
 [1.1]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.0...v1.1
