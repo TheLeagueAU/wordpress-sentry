@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/raven/lib/Raven/Autoloader.php';
+require_once dirname(__FILE__) . '/vendor/sentry/sentry/lib/Raven/Autoloader.php';
 Raven_Autoloader::register();
 
 class WP_Raven_Client extends Raven_Client {
