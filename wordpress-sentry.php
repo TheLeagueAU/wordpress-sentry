@@ -4,7 +4,7 @@
   Plugin Name: Sentry
   Plugin URI: https://github.com/TheLeagueAU/wordpress-sentry
   Description: Sends PHP errors to Sentry
-  Version: 1.3.1
+  Version: 1.4.0
   Author: Ryan Bagwell, Oscar Barrett
   Author URI: https://github.com/TheLeagueAU
   License: GPLv2 or later

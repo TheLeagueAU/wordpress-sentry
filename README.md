@@ -9,7 +9,11 @@ A WordPress plugin to handle reporting php errors to the [Sentry error reporting
   - [Download the latest release](https://github.com/TheLeagueAU/wordpress-sentry/releases) and upload the contents to the `/wp-content/plugins/` directory.
   - Alternatively, use the [github-updater plugin](https://github.com/afragen/github-updater) to install it, which allows for easier updates.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. In Settings > Sentry, add your Sentry DSN and set the error reporting threshold level.
+
+## Usage
+In Settings > Sentry, add your Sentry DSN and set the error reporting threshold level.
+
+Define the `RELEASE_VERSION` environment variable to annotate events with a release version.
 
 ## Contributors
 
