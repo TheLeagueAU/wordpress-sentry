@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [1.4.0] - 2017-08-02
+### Added
+- The `RELEASE_VERSION` enviroment variable will annotate events with a release version.
+
+### Changed
+- Updated Sentry SDK to 1.7.1 and switched to composer for dependency management
+
 ## [1.3.1] - 2017-03-17
 ### Changed
 - Renamed plugin to Sentry to prevent incorrect update messages when using github-updater.
@@ -45,7 +52,8 @@
 - Added first release.
 
 
-[Unreleased]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.3.1...HEAD
+[Unreleased]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.2...v1.3.0
 [1.2]: https://github.com/TheLeagueAU/wordpress-sentry/compare/v1.1...v1.2

@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/raven/lib/Raven/Autoloader.php';
+require_once dirname(__FILE__) . '/vendor/sentry/sentry/lib/Raven/Autoloader.php';
 Raven_Autoloader::register();
 
 class WP_Raven_Client extends Raven_Client {
@@ -34,7 +34,9 @@ class WP_Raven_Client extends Raven_Client {
 		if ($this->settings['dsn'] == '')
 			return;
 
-		parent::__construct($this->settings['dsn']);
+		parent::__construct($this->settings['dsn'], array(
+			release => $_ENV['RELEASE_VERSION']
+		));
 
 		$this->setErrorReportingLevel(
 				$this->settings['reporting_level']);
